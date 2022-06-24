@@ -5,15 +5,21 @@
    font-family: sans-serif;
 }
 
+.main {
+   margin-top: 110px;
+   bottom: auto;
+   opacity: 1;
+   padding-bottom: 45px;
+}
 
-#about .about-section {
+#about .about-section, #resume .resume  {
    top: 100px;
    bottom: auto;
    opacity: 1;
    padding-bottom: 45px;
 }
 
-#about .container, #counter .container, #skills .container {
+#about .container, #counter .container, #skills .container, #interests .container, #testimonial .container{
    background: rgba(0, 0, 0, 0.9);
    padding: 30px;
 }
@@ -93,4 +99,57 @@
    height: 10px;
    transition: 0.9s;
    background-color: #18d26e;
+}
+
+.interests .icon-box {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   background: rgba(255, 255, 255, 0.08);
+   transition: ease-in-out 0.3s;
+}
+.interests .icon-box i {
+   font-size: 32px;
+   padding-right: 10px;
+   line-height: 1;
+}
+.interests .icon-box h3 {
+   font-weight: 700;
+   margin: 0;
+   padding: 0;
+   line-height: 1;
+   font-size: 16px;
+   color: #fff;
+}
+.testimonial .testimonial-item {
+   /* box-sizing: content-box; */
+   min-height: 320px;
+}
+.testimonial .testimonial-item p {
+   font-style: italic;
+   margin: 0 15px 0 15px;
+   padding: 20px 20px 60px 20px;
+   background: rgba(255, 255, 255, 0.1);
+   position: relative;
+   border-radius: 6px;
+   z-index: 1;
+}
+.testimonial .testimonial-item .testimonial-img {
+   width: 90px;
+   border-radius: 50%;
+   margin: -40px 0 0 40px;
+   /* position: relative; */
+   z-index: 2;
+   border: 6px solid rgba(255, 255, 255, 0.12);
+}
+.testimonial .testimonial-item h3 {
+   font-size: 18px;
+   font-weight: bold;
+   margin: 10px 0 5px 45px;
+   color: #fff;
+}
+.testimonial .testimonial-item h4 {
+   font-size: 14px;
+   color: #999;
+   margin: 0 0 0 45px;
 }
