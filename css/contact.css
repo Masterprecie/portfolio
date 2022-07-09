@@ -35,7 +35,7 @@
    padding: 0;
    color: #fff;
    line-height: 24px;
-   font-size: 14px;
+   font-size: 18px;
    margin: 0 0 0 68px;
 }
 .contact .info-box .social-links {
@@ -51,15 +51,16 @@
    transition: 0.3s;
 }
 
-.contact .php-email-form {
+.contact .details {
    padding: 30px;
    background: rgba(255, 255, 255, 0.08);
 }
-.contact .php-email-form input {
+.contact .details input {
    padding: 10px 15px;
+   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .details, .contact .details textarea {
    border-radius: 0;
    box-shadow: none;
    font-size: 14px;
@@ -68,7 +69,7 @@
    transition: 0.3s;
    color: #fff;
 }
-.contact .php-email-form button[type=submit] {
+.contact .details button[type=submit] {
    background: #18d26e;
    border: 0;
    padding: 10px 30px;
