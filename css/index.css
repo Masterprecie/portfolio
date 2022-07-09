@@ -113,13 +113,15 @@ body::before{
     transition: 0.5s!important;
 }
 
+#header ul li:hover::after{
+    width: 100%!important;
+}
+
 #header .navbar-mobile ul {
     flex-wrap: wrap;
 }
 
-#header ul li:hover::after{
-    width: 100%!important;
-}
+
 
 @media (min-width:1024px) {
     body::before {

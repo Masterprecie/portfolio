@@ -5,6 +5,21 @@
    font-family: sans-serif;
 }
 
+
+header ul li::after{
+   content: ''!important;
+   width: 0%!important;
+   height: 2px!important;
+   background: #18d26e!important;
+   display: block!important;
+   margin: auto!important;
+   transition: 0.5s!important;
+}
+
+header ul li:hover::after{
+   width: 100%!important;
+}
+
 .main {
    margin-top: 110px;
    bottom: auto;
@@ -153,3 +168,13 @@
    color: #999;
    margin: 0 0 0 45px;
 }
+
+@media (max-width: 992px) {
+   header .navbar ul {
+      align-items:flex-start;
+   }
+   header .navbar ul li {
+      margin-left:0px;
+}
+}
+

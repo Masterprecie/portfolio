@@ -18,6 +18,137 @@
    <title>Contact</title>
 </head>
 <body>
+   <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 text-light fs-1 fw-bold" href="index.html">Ikpa Precious</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>                    
+              <li class="nav-item ">
+                <a class="nav-link text-light fw-bold" href="about.html">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light fw-bold" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light fw-bold" href="service.html">Services</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light fw-bold" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light fw-bold" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   <main class="main">
+      <section id="contact" class="contact">
+         <div class="container">
+            <div class="text-left">
+               <h2>CONTACT</h2>
+               <p class="fs-1 fw-bold text-light">CONTACT ME</p>
+            </div>            
+            <div class="row mt-2">
+               <div class="col-md-6 d-flex align-items-stretch">
+                  <div class="info-box"> 
+                     <i class="bx bx-map"></i>
+                     <h3>My Address</h3>
+                     <p>A108 Adam Street, New York, NY 535022</p>
+                  </div>
+               </div>
+               <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                  <div class="info-box"> 
+                     <i class="bx bx-share-alt"></i>
+                     <h3>Social Profiles</h3>
+                     <div class="social-links"> 
+                        <a href="#" class="twitter">
+                           <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="facebook">
+                           <i class="bi bi-facebook"></i>
+                        </a> 
+                        <a href="#" class="instagram">
+                           <i class="bi bi-instagram"></i>
+                        </a> 
+                        <a href="#" class="google-plus">
+                           <i class="bi bi-skype"></i>
+                        </a>
+                        <a href="#" class="linkedin">
+                           <i class="bi bi-linkedin"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                  <div class="info-box"> 
+                     <i class="bx bx-envelope"></i>
+                     <h3>Email Me</h3>
+                     <p>contact@example.com</p>
+                  </div>
+               </div>
+               <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                  <div class="info-box"> 
+                     <i class="bx bx-phone-call"></i>
+                     <h3>Call Me</h3>
+                     <p>+1 5589 55488 55</p>
+                  </div>
+               </div>
+            </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+               <div class="row">
+                  <div class="col-md-6 form-group"> 
+                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0"> 
+                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  </div>
+                  
+                  <div class="form-group mt-3"> 
+                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                  </div>
+                  <div class="form-group mt-3">
+                     <textarea class="form-control" name="message" rows="5" placeholder="Message" required="">
+                     </textarea>                                    
+                  </div>
+                  <div class="text-center mt-3">
+                     <button type="submit">Send Message</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <footer class="bg-secondary">
+      <div class="container d-flex justify-content-between pt-3">
+        <div>
+          <p class="text-black fw-bold">@Presh Designs
+            <br> Making figma pages a reality</p>
+          </div>  
+          <div class="text-center">
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li> <a href="https://www.facebook.com/ikpa.precious"> <i class="bi bi-facebook text-black ms-3"></i></a></li>
+              <li> <a href="https://twitter.com/PreciousIkpa"> <i class="bi bi-twitter text-black ms-3"></i></a></li>
+              <li> <a href="https://www.linkedin.com/in/ikpa-precious-475675166/"> <i class="bi bi-linkedin text-black ms-3"></i></a></li>
+              <li> <a href="https://github.com/Masterprecie"> <i class="bi bi-github text-black ms-3"></i></a></li>
+            </ul>
+          </div>
+          <div>
+				<p>Designed by  <span style="color:#18d26e; font-weight:800"> Ikpa Precious </span> </p>
+          </div>         
+      </div>      
+    </footer>
+
    
 
    <script src="./js/bootstrap.min.js"></script>
